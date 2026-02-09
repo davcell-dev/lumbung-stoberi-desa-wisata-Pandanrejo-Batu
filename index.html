@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Lumbung Stroberi Pandanrejo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #fff1f5, #ffe4ec);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff4d6d, #ff758f);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      animation: fadeDown 1.2s ease;
+    }
+
+    header h1 {
+      font-size: 42px;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 18px;
+      opacity: 0.95;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #c9184a;
+    }
+
+    .desc {
+      text-align: center;
+      max-width: 850px;
+      margin: auto;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+      animation: fadeUp 1.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card span {
+      font-size: 42px;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      color: #ff4d6d;
+      margin-bottom: 10px;
+    }
+
+    .cta {
+      background: linear-gradient(135deg, #ff4d6d, #ff758f);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      margin-top: 60px;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      background: white;
+      color: #ff4d6d;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background: #ffe4ec;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #fff;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @keyframes fadeDown {
+      from {opacity: 0; transform: translateY(-40px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes fadeUp {
+      from {opacity: 0; transform: translateY(40px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🍓 Lumbung Stroberi Pandanrejo</h1>
+  <p>Wisata Edukasi & Petik Stroberi Segar di Kota Batu</p>
+</header>
+
+<section>
+  <h2>Tentang Lumbung Stroberi</h2>
+  <p class="desc">
+    Lumbung Stroberi merupakan salah satu destinasi wisata edukasi unggulan yang berada di Desa Wisata Pandanrejo, Kota Batu, Jawa Timur.
+    Tempat ini menawarkan pengalaman unik bagi pengunjung untuk melihat langsung proses budidaya stroberi sekaligus menikmati
+    aktivitas petik buah langsung dari kebunnya.
+    <br><br>
+    Dengan suasana alam yang sejuk dan asri, Lumbung Stroberi sangat cocok untuk wisata keluarga, pelajar, maupun rombongan.
+    Pengunjung tidak hanya bersenang-senang, tetapi juga mendapatkan pengetahuan tentang pertanian modern dan pengolahan stroberi.
+  </p>
+</section>
+
+<section>
+  <h2>Informasi Pengunjung</h2>
+
+  <div class="cards">
+    <div class="card">
+      <span>⏰</span>
+      <h3>Jam Operasional</h3>
+      <p>Buka setiap hari<br>09.00 – 17.00 WIB</p>
+    </div>
+
+    <div class="card">
+      <span>🎟️</span>
+      <h3>Harga Tiket</h3>
+      <p>Mulai dari<br><strong>Rp 25.000 / orang</strong></p>
+    </div>
+
+    <div class="card">
+      <span>📍</span>
+      <h3>Lokasi</h3>
+      <p>Desa Pandanrejo<br>Kota Batu, Jawa Timur</p>
+    </div>
+
+    <div class="card">
+      <span>📱</span>
+      <h3>Kontak WhatsApp</h3>
+      <p>+62 341 307 3304</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Yuk Kunjungi Lumbung Stroberi 🍓</h2>
+  <p>Nikmati sensasi petik stroberi segar langsung dari kebunnya!</p>
+  <a href="https://wa.me/623413073304" target="_blank">Hubungi via WhatsApp</a>
+</section>
+
+<footer>
+  © 2026 Lumbung Stroberi Pandanrejo • Website Edukasi & Wisata
+</footer>
+
+</body>
+</html>
